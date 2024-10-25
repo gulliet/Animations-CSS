@@ -1,1 +1,16 @@
-/*# sourceMappingURL=style.css.map */
+.btn {
+  background-color: #011C37;
+  color: #15DEA5;
+  text-align: center;
+  border: 4px solid #011C37;
+  border-radius: 10rem;
+  cursor: pointer;
+  font-size: 3rem;
+  overflow: hidden;
+  padding: 1.85rem 3rem;
+  position: relative;
+  transition: transform 400ms;
+}
+.btn:hover {
+  transform: scale(1.15);
+}/*# sourceMappingURL=style.css.map */
