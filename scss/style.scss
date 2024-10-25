@@ -3,6 +3,12 @@ $cd-txt: #15DEA5;
 $cd-btn-start: rgba(1, 28, 55, 0);
 $cd-btn-end: rgba(1, 28, 55, 1);
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 .btn {
     width: fit-content;
     background-color: $cd-btn-start;
