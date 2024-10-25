@@ -9,7 +9,7 @@
   overflow: hidden;
   padding: 1.85rem 3rem;
   position: relative;
-  transition: transform 400ms;
+  transition: all 450ms;
 }
 .btn:hover {
   transform: scale(1.15);
