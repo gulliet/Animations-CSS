@@ -1,4 +1,6 @@
 .btn {
+  width: -moz-fit-content;
+  width: fit-content;
   background-color: rgba(1, 28, 55, 0);
   color: #15DEA5;
   text-align: center;
@@ -9,7 +11,7 @@
   overflow: hidden;
   padding: 1.85rem 3rem;
   position: relative;
-  transition: all 450ms;
+  transition: transform 450ms, background-color 300ms;
 }
 .btn:hover {
   transform: scale(1.15);

@@ -4,6 +4,7 @@ $cd-btn-start: rgba(1, 28, 55, 0);
 $cd-btn-end: rgba(1, 28, 55, 1);
 
 .btn {
+    width: fit-content;
     background-color: $cd-btn-start;
     color: $cd-txt;
     text-align: center;
@@ -14,7 +15,7 @@ $cd-btn-end: rgba(1, 28, 55, 1);
     overflow: hidden;
     padding: 1.85rem 3rem;
     position: relative;
-    transition: all 450ms;
+    transition: transform 450ms, background-color 300ms;
 
     &:hover {
         transform: scale(1.15);
